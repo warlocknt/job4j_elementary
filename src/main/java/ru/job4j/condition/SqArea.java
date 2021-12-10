@@ -11,6 +11,6 @@ public class SqArea {
         double p = 6;
         double k = 2;
         double result1 = SqArea.square(p, k);
-        System.out.println(" p = " + p + ", k = k" + k + ",  s = " + result1);
+        System.out.println(" p = " + p + ", k =" + k + ",  s = " + result1);
     }
 }
