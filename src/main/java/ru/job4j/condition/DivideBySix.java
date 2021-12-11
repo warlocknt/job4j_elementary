@@ -21,11 +21,11 @@ public class DivideBySix {
         return rsl;
     }
 
-    public static boolean notDividedBy3(int num) {
+    private static boolean notDividedBy3(int num) {
         return !isDividedBy3(num);
     }
 
-    public static boolean isDividedBy3(int num) {
+    private static boolean isDividedBy3(int num) {
         return num % 3 == 0;
     }
 }
